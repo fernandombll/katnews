@@ -1,44 +1,15 @@
 .heart {
-  position: relative;
-  width: 4.375rem;
-  height: 4.375rem;
-  background-color: var(--heart);
-  transform: rotate(-45deg);
-  box-shadow: -10px 10px 90px var(--heart);
   animation: pulse 1s infinite;
-  margin: 32px 0;
-}
-
-.heart::before {
-  content: "";
-  position: absolute;
-  top: -50%;
-  width: 4.375rem;
-  height: 4.375rem;
-  background-color: var(--heart);
-  border-radius: 50%;
-  box-shadow: -10px 10px 90px var(--heart);
-}
-
-.heart::after {
-  content: "";
-  position: absolute;
-  right: -50%;
-  width: 4.375rem;
-  height: 4.375rem;
-  background-color: var(--heart);
-  border-radius: 50%;
-  box-shadow: 10px 10px 90px #ff4757;
 }
 
 @keyframes pulse {
   0% {
-    transform: rotate(-45deg) scale(1);
+    transform: scale(1);
   }
   50% {
-    transform: rotate(-45deg) scale(1.2);
+    transform: scale(1.2);
   }
   100% {
-    transform: rotate(-45deg) scale(1);
+    transform: scale(1);
   }
 }

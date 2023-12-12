@@ -4,38 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Un blog lleno de amor" />
-    <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/animation.css" />
-    <title>🐈 Katnews / Inicio</title>
+    <title>😺 Katnews / Inicio</title>
   </head>
   <body>
-    <!-- HOME -->
-    <div class="home">
-      <!-- HEADER -->
-      <header class="header">
-        <a class="header__logo" href="./">
-          <i class="fa-solid fa-cat"></i>
-          <span>Katnews</span>
-        </a>
-        <nav class="header__nav">
-          <a class="button" href="https://ko-fi.com/ferchitomenball">Donar</a>
-        </nav>
-      </header>
-      <!-- HOME PAGE -->
-      <main class="home__page">
-        <div class="home__hero">
-          <div class="heart"></div>
-          <h1 class="container__title">Un Diario de Amor</h1>
-          <a class="button" href="./docs.html">Leer Documentos</a>
+    <!-- HEADER -->
+    <header class="header">
+      <section class="container">
+        <div class="header__inner">
+          <a class="header__logo" href="./">katnews</a>
+          <nav class="header__nav">
+            <a
+              class="button"
+              href="https://ko-fi.com/ferchitomenball"
+              target="_blank"
+            >
+              Donar
+            </a>
+          </nav>
         </div>
-      </main>
-      <!-- FOOTER -->
-      <footer class="footer">
-        <small>Copyright &copy; 2023</small>
-      </footer>
-      <!-- SCRIPT -->
-      <script src="js/all.min.js"></script>
-    </div>
+      </section>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <section class="container">
+        <section class="inner">
+          <img class="heart" src="assets/heart.svg" alt="Heart Image" />
+          <h1 class="inner__title">
+            <span>1</span>
+            <sup>
+              <small>er</small>
+            </sup>
+            <span>Mes</span>
+          </h1>
+          <small class="version">v0.1</small>
+        </section>
+        <article class="news">
+          <header>
+            <h2>
+              <time datetime="2023-12-11">Dic 11 2023</time>
+            </h2>
+          </header>
+          <section>
+            <h3>Elle me escribe:</h3>
+            <p>
+              Quien iba a pensar!!!.....😱 El tiempo ah pasado y 1 MES📆 tenemos
+              juntos👫,este tiempo 🕰a tu lado a sido muy lindo eres un chavo👨🏻
+              que tiene muchas cosas buenas en su corazón ❤a un que aun nos
+              falta conocernos ➕ espero que sea más tiempo 🕰el que estemos
+              juntos 👫y seguir disfrutando de esto 💕 quiero que sepas que TE
+              QUIERO MUCHO🥰...y...
+            </p>
+            <p>
+              Brindo 🥂 por qué sea más tiempo juntos y vivir más cosas juntos
+            </p>
+            <p>
+              Cumplimos un mes de nuestra relación, me da gusto saber que mujer
+              tengo a mi lado, simplemente ella es mi luz en estos momentos,
+              solo quiero estar con ella el resto de mi vida. Quiero que este
+              día sean muchos mas.
+            </p>
+            <p>
+              Si puedes leer esto, quiero decirte con un video, de lo que quiero
+              en un futuro contigo.
+            </p>
+          </section>
+        </article>
+        <iframe
+          class="video"
+          src="https://www.youtube.com/embed/Tz4w4Y6nrPA"
+          title="Los votos del cadaver de la novia ~"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+    <footer class="footer">
+      <span>Katnews Copyright &copy; 2023</span>
+    </footer>
+    <script src="js/all.min.js"></script>
   </body>
 </html>
